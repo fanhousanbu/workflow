@@ -50,6 +50,7 @@ type ContainerEnv struct {
 	WorkingDir string
 	CommandArr []string
 	ArgsArr    []string
+	Volumn     string
 }
 
 // CIContext ..
